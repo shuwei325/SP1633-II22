@@ -8,7 +8,7 @@ Es un curso introductorio teórico-práctico que proporciona los conceptos
 básicos del análisis de series cronológicas.
 
 [Programa del
-curso](https://shuwei325.github.io/SP1633-II21/SP1633-programa.pdf)
+curso](https://shuwei325.github.io/SP1633-II22/SP1633-programa.pdf)
 
 | Semana | Presentaciones                                                                                                                   | Laboratorio y Materiales extras |
 |------------|------------|------------------------------------------------|
