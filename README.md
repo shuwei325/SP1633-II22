@@ -10,22 +10,7 @@ básicos del análisis de series cronológicas.
 [Programa del
 curso](https://shuwei325.github.io/SP1633-II21/SP1633-programa.pdf)
 
-Las clases grabadas se encuentran
-[aquí](https://youtube.com/playlist?list=PL81c0Y-B3uz1yxyVnlg1khPYWStQ9tgbl)
-
-| Semana | Presentaciones                                                                                                                  | Laboratorio y Materiales extras                                  |
-|--------|---------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
-| 1      | [Clase 1](https://shuwei325.github.io/SP1633-II21/clase-1.html)                                                                 |                                                                  |
-| 2      |                                                                                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-2.rar)  |
-| 3      | [Clase 3](https://shuwei325.github.io/SP1633-II21/clase-3.html)                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-3.rar)  |
-| 4      | [Clase 4](https://shuwei325.github.io/SP1633-II21/clase-4.html)                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-4.rar)  |
-| 5      | [Clase 5](https://shuwei325.github.io/SP1633-II21/clase-5.html)                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-5.rar)  |
-| 6      | [Clase 6](https://shuwei325.github.io/SP1633-II21/clase-6.html)                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-6.rar)  |
-| 7      | Repaso y examen                                                                                                                 |                                                                  |
-| 8      | [Clase 7](https://shuwei325.github.io/SP1633-II21/clase-7.html)                                                                 |                                                                  |
-| 9      | Semana Desconexión                                                                                                              |                                                                  |
-| 10     | [Clase 8](https://shuwei325.github.io/SP1633-II21/clase-8.html) [Clase 9](https://shuwei325.github.io/SP1633-II21/clase-9.html) |                                                                  |
-| 11     |                                                                                                                                 | [archivos](https://shuwei325.github.io/SP1633-II21/clase-9.rar)  |
-| 12     | [Clase 10](https://shuwei325.github.io/SP1633-II21/clase-10.html)                                                               | [archivos](https://shuwei325.github.io/SP1633-II21/clase-10.rar) |
-| 13     | [Clase 11](https://shuwei325.github.io/SP1633-II21/clase-11.html)                                                               | [archivos](https://shuwei325.github.io/SP1633-II21/clase-11.rar) |
-| 14     | [Clase 12](https://shuwei325.github.io/SP1633-II21/clase-12.html)                                                               | [archivos](https://shuwei325.github.io/SP1633-II21/clase-12.rar) |
+| Semana | Presentaciones                                                                                                                   | Laboratorio y Materiales extras |
+|------------|------------|------------------------------------------------|
+| 1      | [Clase 0](https://shuwei325.github.io/SP1633-II22/clase-0.html), [Clase 1](https://shuwei325.github.io/SP1633-II22/clase-1.html) |                                 |
+| 2      |                                                                                                                                  |                                 |
