@@ -310,7 +310,7 @@ $$
 - Una descripción completa de un modelo de series temporales es proporcionado por la distribución de probabilidad conjunta, i.e. dados tiempos arbitrarios `\(t_1,...,t_n\)` para `\(n\)` entero positivo y `\(c_1,...,c_n\)` n valores constantes:
 
 $$
-	F_{t_1,...,t_n}(c_1,...,c_n)=P\left(X_1\leq c_1, X_2\leq c_2,...,X_t \leq c_t \right)
+	F_{t_1,...,t_t}(c_1,...,c_t)=P\left(X_1\leq c_1, X_2\leq c_2,...,X_t \leq c_t \right)
 $$
 - Aunque esa distribución describe los datos globalmente, en la práctica, esa distribución multidimencional es dificil de conocer, excepto cuando es normal multivariado (¿por qué?)
 
@@ -327,7 +327,7 @@ $$
 
 - **La función de media** para el tiempo `\(t\)` es definida por
 
-`$$\mu_t= E(X_t)=\int_{-\infty}^\infty f_t(x)dx$$`
+`$$\mu_t= E(X_t)=\int_{-\infty}^\infty x f_t(x)dx$$`
 - Considere el ejemplo de medias móviles: `\(v_t=\frac{1}{3}(w_{t-1}+w_{t}+w_{t+1})\)`
 
 `$$E(v_t)=\frac{1}{3}(E(w_{t-1})+E(w_{t})+E(w_{t+1}))=0$$`
