@@ -89,7 +89,7 @@ class: center, middle, inverse, title-slide
 
 `$$Z_{t} = T_{t} \times S_{t} \times I_t.$$`
 donde:&lt;br /&gt;
-`\(Z_t\)`: el valor de la serie Z en el tiempo `\(t\)`, &lt;br /&gt;
+`\(Z_t\)`: el valor de la serie `\(Z\)` en el tiempo `\(t\)`, &lt;br /&gt;
 `\(T_t\)`: componente tendencia-ciclo en el tiempo `\(t\)`. &lt;br /&gt;
 `\(S_t\)`: componente estacional en el tiempo `\(t\)`. &lt;br /&gt;
 `\(I_t\)`: componente irregular, aleatorio en el tiempo `\(t\)`.
@@ -142,7 +142,7 @@ $$
 
 - Un promedio móvil de orden `\(m\)` se puede escribir como:
 `$$\begin{equation}
-  PM_{t} = \frac{1}{m} \sum_{j=-k}^k Z_{t+j}, \tag{6.1}
+  PM_{t} = \frac{1}{m} \sum_{j=-k}^k Z_{t+j},
 \end{equation}$$`
 
 donde `\(m = 2k+1\)` (impar).
@@ -198,7 +198,7 @@ Se calcula un promedio móvil centrado de la siguiente forma:
 `$$S^*_j,~~~j=1,...m.$$`
 Se debe ajustar estos índices para que sumen 0, y así se obtienen los **índices estacionales normalizados**. 
 `$$S_j=S^*_j-\bar{S^*}$$`
-Se interpreta que la serie Y es `\(S_j\)` mayor (o menor) que la serie ajustada en el periodo `\(j\)`.
+Se interpreta que la serie `\(Z\)` es `\(S_j\)` mayor (o menor) que la serie ajustada en el periodo `\(j\)`.
 
 ---
 ### Descomposición aditiva
