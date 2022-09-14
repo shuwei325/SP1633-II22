@@ -25,6 +25,9 @@ Semana        | Presentaciones | Laboratorio y Materiales extras
 2             |                | [archivos](https://shuwei325.github.io/SP1633-II22/Clase02.rar) 
 3             | [Clase03](https://shuwei325.github.io/SP1633-II22/Clase03.html)| [Clase03_lab](https://shuwei325.github.io/SP1633-II22/Clase03_lab.html) / [archivos](https://shuwei325.github.io/SP1633-II22/Clase03.rar) 
 4             | [Clase04](https://shuwei325.github.io/SP1633-II22/Clase04.html)| [archivos](https://shuwei325.github.io/SP1633-II22/Clase04_lab.rar) 
+5             | [Clase05](https://shuwei325.github.io/SP1633-II22/Clase05.html)| [archivos](https://shuwei325.github.io/SP1633-II22/Clase05_lab.rar) 
+
+
 
 
 
