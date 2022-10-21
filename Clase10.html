@@ -23,7 +23,7 @@ class: center, middle, inverse, title-slide
 ### Posgrado en Estadística, UCR
 ]
 .date[
-### 14/10/2022
+### 21/10/2022
 ]
 
 ---
@@ -191,9 +191,9 @@ donde&lt;br /&gt;
 `$$H_0: \rho_1(a)=\rho_2(a)=...=\rho_K(a)=0$$`
 con la estadística:
 `$$Q=T(T+2) \sum\limits_{k=1}^K \frac{1}{T-k} r_k^2(\hat{a}).$$`
-Bajo `\(H_0\)`, Q se distribuye aproximadamente como `\(\chi_{K-m}^2\)` donde `\(m\)` es el número de parámetros estimados en el modelo ARIMA.
+Bajo `\(H_0\)`, `\(Q\)` se distribuye aproximadamente como `\(\chi_{K-m}^2\)` donde `\(m\)` es el número de parámetros estimados en el modelo ARIMA.
 
-- Para `\(Q\)` grande, significa que las primeras `\(Q\)` autocorrelaciones residuales son significativamente diferentes que cero. Si este es el caso, se debe volver a la etapa de identificación de un nuevo modelo.
+- Para `\(Q\)` grande, significa que las primeras `\(K\)` autocorrelaciones residuales son significativamente diferentes que cero. Si este es el caso, se debe volver a la etapa de identificación de un nuevo modelo.
 
 
 ---
