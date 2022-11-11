@@ -3,7 +3,8 @@
   <head>
     <title>Series cronológicas (SP-1633)</title>
     <meta charset="utf-8" />
-    <meta name="author" content="Prof. Shu Wei Chou Chou" />
+    <meta name="author" content="Prof. Shu Wei Chou Chen" />
+    <meta name="date" content="2022-11-11" />
     <script src="Clase12_files/header-attrs/header-attrs.js"></script>
     <link href="Clase12_files/remark-css/robot-fonts.css" rel="stylesheet" />
     <link href="Clase12_files/remark-css/robot.css" rel="stylesheet" />
@@ -13,10 +14,18 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
+.title[
 # Series cronológicas (SP-1633)
-### Prof. Shu Wei Chou Chou
+]
+.author[
+### Prof. Shu Wei Chou Chen
+]
+.institute[
 ### Posgrado en Estadística, UCR
-### 4/11/2022
+]
+.date[
+### 11/11/2022
+]
 
 ---
 
@@ -138,7 +147,7 @@ mod &lt;- Arima(y, xreg=x, order=c(1,1,0))
 ##       0.6922  -0.5758  0.1984     0.5990  0.2028
 ## s.e.  0.1159   0.1301  0.0756     0.0884  0.0461
 ## 
-## sigma^2 estimated as 0.3219:  log likelihood=-156.95
+## sigma^2 = 0.3219:  log likelihood = -156.95
 ## AIC=325.91   AICc=326.37   BIC=345.29
 ```
 
@@ -184,9 +193,9 @@ El modelo final estimado es:
 ## 	Ljung-Box test
 ## 
 ## data:  Residuals from Regression with ARIMA(1,0,2) errors
-## Q* = 5.8916, df = 3, p-value = 0.117
+## Q* = 5.8916, df = 5, p-value = 0.3169
 ## 
-## Model df: 5.   Total lags used: 8
+## Model df: 3.   Total lags used: 8
 ```
 
 ---
@@ -247,10 +256,7 @@ donde `\(\mu\)` es una constante y `\(\epsilon_t\)` es ruido blanco.
 ---
 ### Serie estacionaria por tendencia y por diferencia.
 
-
 .pull-left[
-
-
 &lt;img src="Clase12_files/figure-html/unnamed-chunk-10-1.png" width="80%" style="display: block; margin: auto;" /&gt;
 
 Tendencia determinística:
@@ -310,7 +316,7 @@ trend &lt;- seq_along(austa)
 ##       1.1127  -0.3805     0.4156  0.1710
 ## s.e.  0.1600   0.1585     0.1897  0.0088
 ## 
-## sigma^2 estimated as 0.02979:  log likelihood=13.6
+## sigma^2 = 0.02979:  log likelihood = 13.6
 ## AIC=-17.2   AICc=-15.2   BIC=-9.28
 ```
 
@@ -335,7 +341,7 @@ trend &lt;- seq_along(austa)
 ##       0.3006  0.1735
 ## s.e.  0.1647  0.0390
 ## 
-## sigma^2 estimated as 0.03376:  log likelihood=10.62
+## sigma^2 = 0.03376:  log likelihood = 10.62
 ## AIC=-15.24   AICc=-14.46   BIC=-10.57
 ```
 
@@ -429,7 +435,7 @@ summary(moda)
 ##       -0.6918
 ## s.e.   0.0644
 ## 
-## sigma^2 estimated as 0.001248:  log likelihood=256.11
+## sigma^2 = 0.001248:  log likelihood = 256.11
 ## AIC=-508.22   AICc=-508.12   BIC=-502.44
 ## 
 ## Training set error measures:
@@ -493,7 +499,7 @@ summary(modb)
 ##       -0.7782  0.0654  0.1119
 ## s.e.   0.0437  0.0434  0.0434
 ## 
-## sigma^2 estimated as 0.001902:  log likelihood=472.22
+## sigma^2 = 0.001902:  log likelihood = 472.22
 ## AIC=-936.44   AICc=-936.29   BIC=-921.98
 ## 
 ## Training set error measures:
@@ -513,9 +519,9 @@ summary(modb)
 ## 	Ljung-Box test
 ## 
 ## data:  Residuals from Regression with ARIMA(0,1,1) errors
-## Q* = 15.279, df = 17, p-value = 0.5754
+## Q* = 15.279, df = 19, p-value = 0.7047
 ## 
-## Model df: 3.   Total lags used: 20
+## Model df: 1.   Total lags used: 20
 ```
 
 
@@ -573,6 +579,19 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     deleted = true;
   });
 })();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
 (function() {
   "use strict"
   // Replace <script> tags in slides area to make them executable
