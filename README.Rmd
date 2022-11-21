@@ -35,6 +35,7 @@ Semana        | Presentaciones | Laboratorio y Materiales extras
 12             | |[archivos](https://shuwei325.github.io/SP1633-II22/Clase11_lab.zip)   
 13             | [Clase12](https://shuwei325.github.io/SP1633-II22/Clase12.html)| [archivos](https://shuwei325.github.io/SP1633-II22/Clase12_lab.zip)  
 14             | [Clase13](https://shuwei325.github.io/SP1633-II22/Clase13.html)| [archivos](https://shuwei325.github.io/SP1633-II22/Clase13_lab.zip)  
+15             | [Clase14](https://shuwei325.github.io/SP1633-II22/Clase14.html)| [archivos](https://shuwei325.github.io/SP1633-II22/Clase14_lab.zip)  
 
 
 
