@@ -109,7 +109,7 @@ Dos series temporales, `\(X_t\)` y `\(Y_t\)` se dicen que son **conjuntamente es
 `$$\gamma_{XY}(h)= Cov(X_{t+h},Y_t) =E\left[ (X_{t+h}-\mu_{X})(Y_t-\mu_{Y}) \right]$$`
 es una función que solamente depende de `\(h\)`.
 
-De esta forma, podemos definir la función de correlación cruzada de dos series temporales conjuntamente estacionarias por `$$\rho_{XY}(h)=\frac{\gamma_{XY}(h)}{\sqrt{\gamma_X(0),\gamma_Y(0)}}$$`
+De esta forma, podemos definir la función de correlación cruzada de dos series temporales conjuntamente estacionarias por `$$\rho_{XY}(h)=\frac{\gamma_{XY}(h)}{\sqrt{\gamma_X(0)\gamma_Y(0)}}$$`
 
 **Propiedades:**
 - `\(-1 \leq \rho_{XY}(h) \leq 1\)`
@@ -212,7 +212,7 @@ ccf2(soi,rec, 36, main="función de correlación cruzada de SOI contra Rec.")
 ---
 ### Medidas de dependencia (caso K-variada)
 
-La generalización a series temporales multivariadas con `\(p\)` componentes, `\(X_{t1},...X_{tK}, t=1,...,T\)`, es intuitivo:
+La generalización a series temporales multivariadas con `\(K\)` componentes, `\(X_{t1},...X_{tK}, t=1,...,T\)`, es intuitivo:
 
 - **la función de autocovariancia cruzada**:
 
